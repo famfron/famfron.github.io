@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'afterglow';
+    src: url('fonts/afterglow-regular-webfont.woff2') format('woff2'),
+         url('fonts/afterglow-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.home-back {
+    background-color: darkslategrey;
+    -ms-overflow-style: none;
+}
+
+.center {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    height: 95%;
+    width: 90%;
+    border: 2px solid rgb(207, 207, 207);
+    background-color: rgb(207, 207, 207);
+}
+
+.center-blog {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    height: 95%;
+    width: 90%;
+    border: 2px solid rgb(207, 207, 207);
+    background-color: rgb(207, 207, 207);
+}
+
+.center-photo {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    height: 95%;
+    width: 90%;
+    border: 2px solid rgb(207, 207, 207);
+    background-color: rgb(207, 207, 207);
+}
+
+.center-music {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    height: 95%;
+    width: 90%;
+    border: 2px solid rgb(207, 207, 207);
+    background-color: rgb(207, 207, 207);
+}
+
+.title-wammy {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'afterglow';
+    line-height: 5px;
+}
+
+.subtitle-wammy {
+    line-height: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.line-sub {
+    margin-top: 35px;
+    margin-left: 19%;
+    width: 62%;
+    border-bottom: 3px solid black;
+}
+
+.about-me-title {
+    font-family: 'afterglow';
+    font-size: 30px;
+    line-height: 5px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.home-buttons {
+    width: 50%;
+}
+
+.button-row {
+    position: relative;
+    background-color: black;
+    width: 100%;
+}
+
+button {
+    position: relative;
+    left: 72%;
+    font-size: 16px;
+    color: aqua;
+    background-color: black;
+    border: 1px solid black;
+    height: 65px;
+    width: 125px;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s
+}
+
+button:hover {
+    background-color: pink;
+    border: 2px solid pink;
+}
+
+.about-me-home {
+    margin-top: 50px;
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.home-page-photos-safespace {
+    margin-top: 50px;
+    margin-left: 8%;
+    margin-bottom: 30px;
+    width: 84%;
+    border: 1px solid darkslategray;
+    height: 650px;
+}
+
+.home-page-photos {
+    margin-top: 2%;
+    width: 96%;
+    height: 90%;
+    border: 1px dashed black;
+    margin-left: 2%
+}
+
+.title-blog {
+    margin-top: 80px;
+    line-height: 5px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'afterglow';
+}
+
+.sub-blog {
+    line-height: 2px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.blog-entries {
+    margin-top: 85px;
+    margin-left: 13%;
+    margin-bottom: 100px;
+    width: 74%;
+    height: 1000px;
+    border: 2px solid darkslategrey;
+}
+
+.entries-list {
+    margin-top: 5px;
+    margin-left: 3%;
+    width: 75%;
+    height: 880px;
+    border: 1px solid darkslategrey;
+    float: left;
+}
+
+.entries-list-dates {
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 17%;
+    height: 880px;
+    border: 1px solid darkslategrey;
+    float: left;
+}
+
+.blog-entries-title {
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 34%;
+    float: left;
+}
+
+.blog-entries-title-byDate {
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 84%;
+}
+
+.photoTitle {
+    width: 100%;
+    height: 150px;
+    border: 1px dashed black;
+}
+
+.title-photo {
+    line-height: 10px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'afterglow';
+}
+
+.subtitle-photo {
+    line-height: 0px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.photos-byMonth {
+    margin-top: 60px;
+    width: 10%;
+    height:595px;
+    border: 1px solid darkslategrey;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.photo-month-title {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    margin-bottom: 34px;
+}
+
+.photo-month {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 23px;
+    cursor: pointer;
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+}
+
+.photo-month:hover {
+    color: rgb(45, 45, 45);
+}
+
+.blog-entry-years {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+}
+
+.blog-entry-years:hover {
+    color: rgb(50, 50, 50);
+}
+
+.blog-entry-months {
+    line-height: 10px;
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    cursor: pointer;
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+}
+
+.blog-entry-months:hover {
+    color: rgb(69, 69, 117);
+}
+
+.title-music {
+    margin-top: 80px;
+    line-height: 5px;
+    text-align: center;
+    font-family: 'afterglow';
+    font-size: 40px;
+}
+
+.subtitle-music {
+    line-height: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.music-through-years {
+    margin-top: 75px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 60  px;
+    border: 1px solid black;
+}
+
+.music-year {
+    margin-left: 104px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.music-year:hover {
+    color: rgb(50, 50, 50);
+}
+
+.music-frontPage {
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+
+.music-frontPage-title {
+    margin-top: 100px;
+    font-family: 'afterglow';
+    font-size: 30px;
+    text-align: center;
+    line-height: 0px;
+}
+
+.music-frontPage-first {
+    margin-left: 265px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+
+.music-frontPage-second {
+    margin-left: 140px;
+    margin-top:20px;
+    width: 300px;
+    height: 500px;
+}
+
+.music-frontPage-third {
+    margin-left: 140px;
+    margin-top: 20px;
+    width: 300px;
+    height: 500px;
+}
+
+.recent-photos {
+    position: absolute;
+    margin-top: 65px;
+    border: 1px dashed black;
+    margin-left: 100px;
+    display: inline-block;
+    width: 1200px;
+    height: 400px;
+}
+
+.max-settings-landscape {
+    margin-bottom: 25px;
+    max-height: 350px;
+    image-orientation: from-image;
+}
+
+.max-settings-portrait {
+    margin-top: 0px;
+    max-height: 400px;
+    image-orientation: from-image;
+}
+
+.home-photo {
+    position: absolute;
+    margin-left: 50px;
+}
