@@ -14,6 +14,30 @@ function music_page() {
     window.location.href = "music.html"
 }
 
+function inDevelopment() {
+    window.location.href = "page_inDevelopment.html"
+}
+
+function inDevelopment_parent() {
+    window.location.href = "../page_inDevelopment.html"
+}
+
+function home_page_parent() {
+    window.location.href = "../home_page.html"
+}
+
+function blog_page_parent() {
+    window.location.href = "../blog.html"
+}
+
+function photo_page_parent() {
+    window.location.href = "../photos.html"
+}
+
+function music_page_parent() {
+    window.location.href = "../music.html"
+}
+
 function jan_photos() {
     window.location.href = "photos_months/jan_photos.html"
 }

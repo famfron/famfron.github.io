@@ -202,7 +202,6 @@ button:hover {
 .photoTitle {
     width: 100%;
     height: 150px;
-    border: 1px dashed black;
 }
 
 .title-photo {
@@ -222,6 +221,7 @@ button:hover {
 
 .photos-byMonth {
     margin-top: 60px;
+    margin-bottom: 30px;
     width: 10%;
     height:595px;
     border: 1px solid darkslategrey;
@@ -248,7 +248,7 @@ button:hover {
 }
 
 .photo-month:hover {
-    color: rgb(45, 45, 45);
+    color: rgb(115, 115, 115);
 }
 
 .blog-entry-years {
@@ -359,26 +359,64 @@ button:hover {
 .recent-photos {
     position: absolute;
     margin-top: 65px;
-    border: 1px dashed black;
     margin-left: 100px;
     display: inline-block;
-    width: 1200px;
+    width: 65%;
     height: 400px;
 }
 
 .max-settings-landscape {
-    margin-bottom: 25px;
-    max-height: 350px;
+    margin-top: 2%;
+    max-height: 88%;
     image-orientation: from-image;
 }
 
 .max-settings-portrait {
     margin-top: 0px;
     max-height: 400px;
-    image-orientation: 90deg;
 }
 
 .home-photo {
     position: absolute;
     margin-left: 50px;
+}
+
+.inDev-body {
+    background-color: black;
+}
+
+.centerPage-inDev {
+    background-color: white;
+    width: 40%;
+    height: 200px;
+    margin-left: 30%;
+    margin-top: 20%;
+    border: 2px solid aqua;
+}
+
+.inDev-textBox {
+    padding: 1%;
+    position: relative;
+    height: 40%;
+    width: 100%;
+}
+
+.inDev-text {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.inDev-button {
+    background-color: white;
+    color: black;
+    border: 0px;
+    left: 40%;
+    float: none;
+    transition: none;
+    -webkit-transition: none;
+}
+
+.inDev-button:hover {
+    background-color: white;
+    border: 0;
 }
