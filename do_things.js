@@ -3,7 +3,7 @@ function blog_page() {
 }
 
 function home_page() {
-    window.location.href = "index.html"
+    window.location.href = "home_page.html"
 }
 
 function photo_page() {

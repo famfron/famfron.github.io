@@ -375,7 +375,7 @@ button:hover {
 .max-settings-portrait {
     margin-top: 0px;
     max-height: 400px;
-    image-orientation: from-image;
+    image-orientation: 90deg;
 }
 
 .home-photo {
