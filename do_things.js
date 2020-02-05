@@ -123,5 +123,5 @@ function music_2020() {
 }
 
 function IsThereAPoint() {
-    window.location.href = "blog/blog_entry_IsThereAPoint"
+    window.location.href = "blog_posts/blog_entry_IsThereAPoint"
 }
