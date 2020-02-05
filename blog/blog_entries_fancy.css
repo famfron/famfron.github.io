@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'afterglow';
+    src: url('fonts/afterglow-regular-webfont.woff2') format('woff2'),
+         url('fonts/afterglow-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'besleybook';
+    src: url('fonts/besley-book-webfont.woff2') format('woff2'),
+         url('fonts/besley-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.home-back {
+    background-color: rgb(24, 24, 24);
+    -ms-overflow-style: none;
+}
+
+.home-buttons {
+    width: 50%;
+}
+
+.button-row {
+    position: relative;
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+}
+
+button {
+    position: relative;
+    left: 72%;
+    font-size: 16px;
+    color: aqua;
+    background-color: rgb(10, 10, 10);
+    border: 1px solid rgb(10, 10, 10);
+    height: 65px;
+    width: 125px;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s
+}
+
+button:hover {
+    background-color: pink;
+    border: 2px solid pink;
+    color: rgb(20, 20, 20);
+}
+
+.center-blogPost {
+    margin-top: 2%;
+    margin-left: 15%;
+    border: 2px solid rgb(207, 207, 207);
+    background-color: rgb(207, 207, 207);
+    width: 50%;
+    height: 880px;
+    float: left;
+}
+
+.blogPost {
+    margin-top: 90px;
+    margin-left: 5%;
+    width: 90%;
+    height: 40%;
+}
+
+.blogPost-title {
+    height: 20%;
+    width: 100%;
+}
+
+.post-title {
+    line-height: 0px;
+    text-align: center;
+    font-family: 'afterglow';
+    font-size: 40px;
+}
+
+.blog-text {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    font-family: 'besleybook';
+    font-size: 20px;
+    text-indent: 45px;
+}
+
+.blogPost-text {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.blog-text-lineLast {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'besleybook';
+    font-size: 20px;
+}
+
+.blogPost-redirect {
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: rgb(207, 207, 207);
+    width: 15%;
+    height: 884px;
+    float: left;
+}
+
+.byMonth {
+    background-color: rgba(253, 242, 211, 0.336);
+    margin-top: 8%;
+    width: 70%;
+    margin-left: 15%;
+    height: 40%;
+    box-shadow: 2px 2px rgb(24, 24, 24);
+    padding: 1px;
+}
+
+.byMonth-title {
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.monthPosted {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+.monthPosted:hover {
+    color: rgb(100, 100, 100);
+}
+
+.other-redirects {
+    background-color: rgba(253, 242, 211, 0.336);
+    margin-top: 8%;
+    width: 70%;
+    margin-left: 15%;
+    height: 50%;
+    box-shadow: 2px 2px rgb(24, 24, 24);
+    padding: 1px;
+}
+
+.otherPosts {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}

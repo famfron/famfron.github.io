@@ -121,3 +121,7 @@ function music_2019() {
 function music_2020() {
     window.location.href = "music_years/2020_music"
 }
+
+function IsThereAPoint() {
+    window.location.href = "blog/blog_entry_IsThereAPoint"
+}

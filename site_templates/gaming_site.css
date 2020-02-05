@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'tekomedium';
+    src: url('fonts_gaming/teko-medium-webfont.woff2') format('woff2'),
+         url('fonts_gaming/teko-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: darkslategray;
+}
+
+.username-title-div {
+    margin-top: 5px;
+    border: 1px dashed transparent;
+}
+
+.username-title {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'tekomedium';
+    line-height: 0;
+
+}
+
+.team-name {
+    margin-top: 25px;
+    border: 1px dashed transparent;
+}
+
+.team-name-title {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'tekomedium';
+    line-height: 0;
+}
